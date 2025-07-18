@@ -5,7 +5,7 @@ import { FormBuilder, Validators } from '@angular/forms';
   selector: 'app-vehicle-form',
   templateUrl: './vehicle-form.component.html'
 })
-export class VehicleFormComponent {
+export class Vehicle {
   vehicleForm = this.fb.group({
     vin: ['', [Validators.required, Validators.minLength(17), Validators.maxLength(17)]],
     ownerName: ['', Validators.required],

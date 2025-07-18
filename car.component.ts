@@ -5,7 +5,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   selector: 'app-car-form',
   templateUrl: './car-form.component.html'
 })
-export class CarFormComponent implements OnInit {
+export class CarComponent implements OnInit {
   carForm!: FormGroup;
 
   constructor(private fb: FormBuilder) {}
