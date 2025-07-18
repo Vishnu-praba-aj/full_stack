@@ -2,7 +2,7 @@ package com.example.model;
 
 import jakarta.validation.constraints.*;
 
-public class AdvancedValidationCar {
+public class Car {
 
     @NotNull
     private String vin;
